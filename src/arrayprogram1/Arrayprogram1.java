@@ -19,10 +19,10 @@ public class Arrayprogram1 {
      */
     public static void main(String[] args) {
           Scanner keyedInput = new Scanner (System.in);
-        
+        //Array
         int [ ] numbers = new int [20];
         int total = 0;
-      
+        //prompt user
         System.out.println("Enter twenty integers and they will be added together:");
         for (int i = 0; i <= 19; i = i + 1)
         {
@@ -34,7 +34,7 @@ public class Arrayprogram1 {
         {
              total = total + numbers[i];
         }
-        
+        //output
         System.out.println("The sum of those numbers is:");
         System.out.println(total);
     }
